@@ -86,4 +86,6 @@ Fact-or-Fake/
 
 [**[Enrico Harder](https://github.com/EnricoHarder)**] — Web Scraping / UI / Projektleiter
 
+[**[Martin Koch](https://github.com/Mk97x)**] — Web Scraping / Faktenmanipulation 
+
 
