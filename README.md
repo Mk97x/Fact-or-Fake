@@ -1,78 +1,89 @@
-Fact or Fake Wiki-Game - Ergebnis eines Hackathons
-Ein textbasiertes Spiel, bei dem Spieler zwischen echten und gefälschten Wikipedia-Artikeln unterscheiden müssen. Teste dein Wissen und deine Fähigkeit, Fake-News zu erkennen!
+# Fact-or-Fake — Wiki Game zur Faktenüberprüfung
 
-Spielbeschreibung
-Das "Fact or Fake" Wiki-Game ist ein unterhaltsames Bildungsspiel, bei dem Spieler ihre Faktenprüfungs-Fähigkeiten unter Beweis stellen müssen. In jeder Runde werden zwei Aussagen präsentiert - eine ist wahr (Fact), die andere ist falsch (Fake). Die Spieler müssen erraten, welche Aussage gefälscht ist.
+**Fact-or-Fake** ist ein textbasiertes Quiz-/Bildungsspiel, bei dem Spieler zwischen echten und erfundenen Fakten (aus Wikipedia) unterscheiden müssen. Ziel ist es, spielerisch die Fähigkeit zur Quellenkritik und Faktenprüfung zu schärfen.
 
-Features
-Mehrspieler-Modus: Bis zu 5 Spieler können gegeneinander antreten
-Drei Schwierigkeitsstufen: Einfach, Mittel und Schwer
-Echtzeit-Wikipedia-Daten: Alle Fakten stammen aus echten Wikipedia-Artikeln
-Farbiges Konsolen-Interface: Ansprechende visuelle Darstellung
-Punktesystem: Verfolge deinen Fortschritt und vergleiche dich mit anderen Spielern
+---
 
-Voraussetzungen
-Python 3.6 oder höher
-Installierte Python-Pakete:
-wikipedia
-beautifulsoup4
-requests
+## Inhaltsverzeichnis
 
-Installation
+1. [Features](#features)  
+2. [Mein Beitrag](#mein-beitrag)  
+3. [Installation](#installation)  
+4. [Benutzung](#benutzung)  
+5. [Projektstruktur](#projektstruktur)  
+6. [Mitwirkende](#mitwirkende)  
 
-Repository klonen:
+---
 
-git clone https://github.com/dein-username/fact-or-fake-wiki-game.git 
-cd fact-or-fake-wiki-game
-Virtuelle Umgebung erstellen (optional aber empfohlen):
-bash
+## Features
 
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
+- Auswahl von **Schwierigkeitsstufen** (z. B. einfach, mittel, schwer)  
+- Echtzeit-Daten aus Wikipedia  
+- interaktives Konsoleninterface  
+- Mehrspieler-Modus für bis zu 5 Spieler  
+- Punktesystem & Verlauf der Spielergebnisse  
 
-venv\Scripts\activate     # Windows
+*(Weitere Features, z. B. UI-Erweiterungen, Statistiken, etc. können hier ergänzt werden.)*
 
-Abhängigkeiten installieren:
-pip install wikipedia beautifulsoup4 requests
+---
 
-Spiel starten
+## Mein Beitrag
+
+Ich war hauptsächlich Verantwortlich für:
+
+- **Scraping und Beschaffung der Fakten**: Automatisiertes Auslesen von Informationen aus Wikipedia bzw. verwandten Quellen, um wahr/falsch-Aussagen zu generieren.  
+- **Manipulation / Generierung von Falschaussagen**: Erzeugung von synthetisch verfälschten Versionen echter Fakten, so dass sie glaubwürdig genug sind, aber dennoch falsch.  
+- Integration dieser Fakten in die Quizlogik und Sicherstellung, dass beide Varianten (Fact und Fake) sinnvoll und ausgewogen sind.
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/Mk97x/Fact-or-Fake.git
+cd Fact-or-Fake
+
+# Virtuelle Umgebung (empfohlen)
+python3 -m venv venv
+source venv/bin/activate  # auf Windows ggf. venv\Scripts\activate
+
+# Abhängigkeiten installieren
+pip install -r requirements.txt
+```
+
+## Benutzung
+
 python main.py
 
-Spielregeln
-Spieleranzahl: 1-5 Spieler
-Spielablauf:
-Jede Runde werden zwei Aussagen präsentiert
-Eine Aussage ist wahr (Fact), eine ist falsch (Fake)
-Spieler müssen die gefälschte Aussage identifizieren
-Bei richtiger Antwort gibt es einen Punkt
-Bei falscher Antwort ist der nächste Spieler an der Reihe
+Wähle die Anzahl der Spieler (1-5)
 
-Schwierigkeitsstufen:
-Einfach: Bekannte Persönlichkeiten
-Mittel: Historische und kulturelle Persönlichkeiten
-Schwer: Spezialisierte historische Figuren
+Wähle eine Schwierigkeitsstufe
 
-Spielende: Nach 2 Runden wird der Gewinner ermittelt
+Pro Runde bekommst du zwei Aussagen – eine ist wahr, die andere falsch
 
-Projektstruktur
+Tippe ein, welche Aussage du für „Fake“ hältst
 
-fact-or-fake-wiki-game/
+Punktevergabe: richtiger Tipp = +1 Punkt, falscher Tipp = kein Punkt 
 
-│
+## Projektstruktur
 
-├── main.py # Hauptprogramm und Spiellogik
-
+Fact-or-Fake/
+├── main.py                  # zentrale Spiellogik & Einstiegspunkt
 ├── controller/
-
-│ └── question_generator.py # Generierung von Fragen und Artikel-Paaren
-
+│   └── question_generator.py  # Logik zur Auswahl und Generierung der Faktenpaare
 ├── view/
+│   └── game_gui.py             # Darstellung & Nutzerinterface (Konsole)
+├── README.md
+├── requirements.txt           # alle Python-Abhängigkeiten
 
-│ └── game_gui.py # Benutzeroberfläche und Konsolen-Anzeige
+## Mitwirkende
 
-└── README.md # Diese Datei
+[**[Kristina Krauberger](https://github.com/kristina-krauberger)**] —  UI / Spielgestaltung / Management
 
+[**[Marie Hirte](https://github.com/Its-Marie)**] —  UI / Spielgestaltung
 
+[**[Fabio Morena](https://github.com/fabiomorena)**] - Web Scraping / Faktenmanipulation
 
+[**[Enrico Harder](https://github.com/EnricoHarder)**] — Web Scraping / UI / Projektleiter
 
 
