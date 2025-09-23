@@ -52,9 +52,9 @@ pip install -r requirements.txt
 ```
 
 ## Benutzung
-
+```bash
 python main.py
-
+```
 Wähle die Anzahl der Spieler (1-5)
 
 Wähle eine Schwierigkeitsstufe
@@ -66,7 +66,7 @@ Tippe ein, welche Aussage du für „Fake“ hältst
 Punktevergabe: richtiger Tipp = +1 Punkt, falscher Tipp = kein Punkt 
 
 ## Projektstruktur
-
+```bash
 Fact-or-Fake/
 ├── main.py                  # zentrale Spiellogik & Einstiegspunkt
 ├── controller/
@@ -75,7 +75,7 @@ Fact-or-Fake/
 │   └── game_gui.py             # Darstellung & Nutzerinterface (Konsole)
 ├── README.md
 ├── requirements.txt           # alle Python-Abhängigkeiten
-
+```
 ## Mitwirkende
 
 [**[Kristina Krauberger](https://github.com/kristina-krauberger)**] —  UI / Spielgestaltung / Management
