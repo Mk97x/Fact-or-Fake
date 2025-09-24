@@ -67,9 +67,9 @@ Fact-or-Fake/
 ```
 ## Mitwirkende
 
-[**[Kristina Krauberger](https://github.com/kristina-krauberger)**] —  UI / Spielgestaltung / Management
+[**[Kristina Krauberger](https://github.com/kristina-krauberger)**] —  UI / Spiellogik / Management
 
-[**[Marie Hirte](https://github.com/Its-Marie)**] —  UI / Spielgestaltung
+[**[Marie Hirte](https://github.com/Its-Marie)**] —  UI / Spiellogik
 
 [**[Fabio Morena](https://github.com/fabiomorena)**] - Web Scraping / Faktenmanipulation
 
