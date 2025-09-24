@@ -7,11 +7,10 @@
 ## Inhaltsverzeichnis
 
 1. [Features](#features)  
-2. [Mein Beitrag](#mein-beitrag)  
-3. [Installation](#installation)  
-4. [Benutzung](#benutzung)  
-5. [Projektstruktur](#projektstruktur)  
-6. [Mitwirkende](#mitwirkende)  
+2. [Installation](#installation)  
+3. [Benutzung](#benutzung)  
+4. [Projektstruktur](#projektstruktur)  
+5. [Mitwirkende](#mitwirkende)  
 
 ---
 
@@ -26,15 +25,6 @@
 
 ---
 
-## Mein Beitrag
-
-Ich war hauptsächlich Verantwortlich für:
-
-- **Scraping und Beschaffung der Fakten**: Automatisiertes Auslesen von Informationen aus Wikipedia bzw. verwandten Quellen, um wahr/falsch-Aussagen zu generieren.  
-- **Manipulation / Generierung von Falschaussagen**: Erzeugung von synthetisch verfälschten Versionen echter Fakten, so dass sie glaubwürdig genug sind, aber dennoch falsch.  
-- Integration dieser Fakten in die Quizlogik und Sicherstellung, dass beide Varianten (Fact und Fake) sinnvoll und ausgewogen sind.
-
----
 
 ## Installation
 
