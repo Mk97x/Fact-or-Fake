@@ -23,7 +23,6 @@
 - Mehrspieler-Modus für bis zu 5 Spieler  
 - Punktesystem & Verlauf der Spielergebnisse  
 
-*(Weitere Features, z. B. UI-Erweiterungen, Statistiken, etc. können hier ergänzt werden.)*
 
 ---
 
