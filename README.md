@@ -1,6 +1,6 @@
 # Fact-or-Fake — Wiki Game zur Faktenüberprüfung
 
-**Fact-or-Fake** ist ein textbasiertes Quiz-/Bildungsspiel, bei dem Spieler zwischen echten und erfundenen Fakten (aus Wikipedia) unterscheiden müssen. Ziel ist es, spielerisch die Fähigkeit zur Quellenkritik und Faktenprüfung zu schärfen.
+**Fact-or-Fake** ist ein textbasiertes Quiz-/Bildungsspiel, bei dem Spieler zwischen echten und erfundenen Fakten (aus Wikipedia) unterscheiden müssen. Ziel ist es, spielerisch die Fähigkeit zur Quellenkritik und Faktenprüfung zu schärfen. Entstanden in einem Hackathon über 3 Tage.
 
 ---
 
@@ -84,6 +84,10 @@ Fact-or-Fake/
 [**[Fabio Morena](https://github.com/fabiomorena)**] - Web Scraping / Faktenmanipulation
 
 [**[Enrico Harder](https://github.com/EnricoHarder)**] — Web Scraping / UI / Projektleiter
+
+[**[Victor von Reiche](https://github.com/victor-von-reiche)**] - Spielgetstaltung / Präsentation
+
+**[Jan Donath]** - Spielablauf
 
 [**[Martin Koch](https://github.com/Mk97x)**] — Web Scraping / Faktenmanipulation 
 
